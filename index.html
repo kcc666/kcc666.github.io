@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>kcc</title>
+    <style>
+    #s1,#s2{
+        color:#ffb122;
+    }
+    
+    </style>
+</head>
+<body>
+    <h1 id="s1">Hello Kcc!</h1>
+    <h1 id="s2">欢迎来到我的个人网站!</h1>
+</body>
+
+<script>
+
+var color = ["red","green","blue","#ffb123"]
+var count = 0
+setInterval(function(){
+
+    document.getElementById("s1").style.color = color[count]
+    document.getElementById("s2").style.color = color[count]
+    count++
+
+    if(count==color.length){
+        count=0
+    }
+
+},500)
+
+</script>
+</html>
