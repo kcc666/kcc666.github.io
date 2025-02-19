@@ -1,46 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>kcc主页</title>
-    <style>
-    .css{
-        /* border: 2px solid black; */
-        height: 150px;
-        width: 300px;
-        border-radius: 10px;
-        cursor: pointer;
-        background: linear-gradient(to right,#ffcb90, #d57eeb);
-        box-shadow: 0 5px 20px rgba(10,16,20,.24), 0 0 2px rgba(10,16,20,.12);
-        color: #fff;
-        font-size: 30px;
-        text-align: center;
-        line-height: 150px;
-        transition: 0.2s;
-        
-    }
-    .css:hover{
-        box-shadow: 0 5px 20px rgba(10,16,20,.24), 0 0 2px rgba(78,16,20,.12);
-        width:350px;
-        height: 200px;
-        line-height: 200px;
-    }
-    #container{
-        height: 1900px;
-        border:1px solid black;
-    }
-
-
-
-    </style>
+    <title>可以成为我的恋人吗？</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="container">
-        <div class="css">
-            CSS属性2
+    <div class="container">
+        <img id="mainImage" src="images/heart.png" alt="爱心">
+        <h1 id="question">可以成为我的恋人吗？</h1>
+        <div class="buttons">
+            <button id="yes">可以</button>
+            <button id="no">不要</button>
         </div>
     </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
